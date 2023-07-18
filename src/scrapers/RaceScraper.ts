@@ -6,7 +6,7 @@ export interface FavouritePartners {
   finishes: number;
 }
 
-export interface WebScraper {
+export interface RaceScraper {
   playerBaseUrl: string;
   mapBaseUrl: string;
 }
@@ -90,7 +90,7 @@ export interface PlayerStats {
   totalPoints: number;
 }
 
-export class WebScraper {
+export class RaceScraper {
   constructor() {
     this.playerBaseUrl = "https://ddnet.tw/players/";
     this.mapBaseUrl = "https://ddnet.tw/maps/";
